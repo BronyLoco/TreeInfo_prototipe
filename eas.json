@@ -1,0 +1,27 @@
+{
+  "cli": {
+    "version": ">= 16.3.3",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        // Asegúrate de que esta propiedad esté presente y sea "apk"
+        "buildType": "apk"
+        // "image": "...", // Puede haber otras propiedades aquí
+        // "credentialsSource": "local" // o "remote"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

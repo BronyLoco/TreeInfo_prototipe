@@ -93,4 +93,9 @@ Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo `LICENSE` 
 
 ---
 
+## Agradecimientos / Asistencia
+
+El desarrollo de este prototipo contó con la asistencia significativa de un modelo de lenguaje grande (IA) entrenado por Google.
+
+
 *Desarrollado como prototipo de apoyo académico.*
