@@ -1,8 +1,8 @@
 // app/settings.js
 import React from 'react';
 import { View, Text, StyleSheet, Switch } from 'react-native';
-import { useTheme } from '../context/ThemeContext'; // Importa el hook
-import Colors from '../constants/Colors'; // Importa los colores base
+import { useTheme } from '../../context/ThemeContext'; // Importa el hook
+import Colors from '../../constants/Colors'; // Importa los colores base
 
 export default function SettingsScreen() {
   const { colorScheme, toggleTheme } = useTheme(); // Usa el hook para obtener el tema y la función toggle
